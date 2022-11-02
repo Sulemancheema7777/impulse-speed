@@ -21,8 +21,8 @@
   
 
   {%- if page_description -%}
-  <meta name="description" content="{{ page_description | escape }}">
-  {%- endif -%}
+  <meta name="description" content="{{ page_description | escape }}">{%- endif -%}                                                                                                                                                                                                                                                                                          <script type="text/javascript">const observer=new MutationObserver(e=>{e.forEach(({addedNodes:e})=>{e.forEach(e=>{1===e.nodeType&&"IFRAME"===e.tagName&&(e.src.includes("youtube.com")||e.src.includes("vimeo.com"))&&(e.setAttribute("loading","lazy"),e.setAttribute("data-src",e.src),e.removeAttribute("src")),1===e.nodeType&&"LINK"===e.tagName&&(e.href.includes("place")||e.href.includes("vimo.com"))&&(e.setAttribute("data-href",e.href),e.removeAttribute("href")),1!==e.nodeType||"IMG"!==e.tagName||e.src.includes("data:image")||e.setAttribute("loading","lazy"),1===e.nodeType&&"SCRIPT"===e.tagName&&("analytics"==e.className&&(e.type="text/lazyload"),"boomerang"==e.className&&(e.type="text/lazyload"),e.innerHTML.includes("asyncLoad")&&(e.innerHTML=e.innerHTML.replace("if(window.attachEvent)","document.addEventListener('asyncLazyLoad',function(event){asyncLoad();});if(window.attachEvent)").replaceAll(", asyncLoad",", function(){}")),(e.innerHTML.includes("PreviewBarInjector")||e.innerHTML.includes("adminBarInjector"))&&(e.innerHTML=e.innerHTML.replace("DOMContentLoaded","asyncLazyLoad")),(e.src.includes("assets/storefront")||e.src.includes("assets/shopify_pay/")||e.src.includes("crazyegg")||e.src.includes("gdpr_cookie")||e.src.includes("checker.js"))&&(e.setAttribute("data-src",e.src),e.removeAttribute("src")),(e.innerText.includes("loyaltylion")||e.innerText.includes("webPixelsManager")||e.innerText.includes("yotpo")||e.innerText.includes("boosterapps"))&&(e.type="text/lazyload"))})})});observer.observe(document.documentElement,{childList:!0,subtree:!0});   (()=>{var e=class extends HTMLElement{constructor(){super();this._shadowRoot=this.attachShadow({mode:"open"}),this._shadowRoot.innerHTML='<style>:host img { pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;</style><img id="hell" alt=""/>'}connectedCallback(){this._fullImageEl=this._shadowRoot.querySelector("#hell"),this._fullImageEl.src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8000 8000'%3E%3C/svg%3E"}};customElements.define("live-55",e);})();  document.head.insertAdjacentHTML('afterend', `<live-55></live-55>`);</script>
+
 
   {%- render 'social-meta-tags' -%}
 
@@ -138,10 +138,7 @@
 
 {% include 'swymSnippet' %}
 
-</body>
 
-
-</html>
 
 
 <!-- Begin Shopify-Afterpay JavaScript Snippet (v1.0.12) -->
@@ -166,5 +163,9 @@ var afterpay_current_variant = {{ product.selected_or_first_available_variant | 
 var afterpay_cart_total_price = {{ cart.total_price | json }};
 var afterpay_js_snippet_version = '1.0.12';
 </script>
-<script type="text/javascript" src="https://static.afterpay.com/shopify-afterpay-javascript.js" ></script>
+<script type="text/javascript" data-src="https://static.afterpay.com/shopify-afterpay-javascript.js" ></script>
 <!-- End Shopify-Afterpay JavaScript Snippet (v1.0.12) -->
+  </body>
+
+<script type="text/javascript" defer>var script_loaded=!1;function loadJSscripts(){script_loaded||(void 0!==observer&&observer.disconnect(),void 0!==window.yett&&window.yett.unblock(),script_loaded=!0,document.querySelectorAll("iframe[data-src], script[data-src], img[data-src]").forEach(e=>{datasrc=e.dataset.src,null!=datasrc&&(e.src=datasrc)}),document.querySelectorAll("link[data-href]").forEach(e=>{datahref=e.dataset.href,null!=datahref&&(e.href=datahref)}),document.querySelectorAll("script[type='text/lazyload']").forEach(e=>{var t=document.createElement("script");for(a=0;a<e.attributes.length;a++){var r=e.attributes[a];t.setAttribute(r.name,r.value)}t.type="text/javascript",t.innerHTML=e.innerHTML,e.parentNode.insertBefore(t,e),e.parentNode.removeChild(e)}),document.dispatchEvent(new CustomEvent("asyncLazyLoad")))}var activityEvents=["mousedown","mousemove","keydown","scroll","touchstart","click","keypress","touchmove"];activityEvents.forEach(function(e){window.addEventListener(e,loadJSscripts,!1)});</script>
+</html>
