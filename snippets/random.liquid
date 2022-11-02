@@ -1,0 +1,20 @@
+{%- comment -%}
+	Randomly Shuffle Liquid Array
+	Author: Stephen Ginn at cremadesignstudio.com
+	Credits: Random Number function from @131_studio
+
+	Usage: {%- render 'random' with 'a~b~c~d~e' -%}
+
+	This snippet does the following:
+	1. Creates a new array with the provided string
+	2. Calculate X amount to loop, based on array size times 10.
+	3. Loop X number to generate random indexes using fancy date and math logic.
+	4. Strip out duplicate keys and echo new array. That's why we looped 10x the array size.
+{%- endcomment -%}
+{%- assign array = random | split: '~' -%}
+{%- assign loops = array.size | times: 10 -%}
+{%- capture indexes -%}
+	{%- for i in (1..loops) -%}{{ "now" | date: "%N" | modulo: array.size }},{%- endfor -%}
+{%- endcapture -%}
+{%- assign indexes = indexes | split: ',' | uniq -%}
+{%- for a in indexes -%}{% assign b = a | plus: 0 %}{{ array[b] }}{% break %}{%- endfor -%}

@@ -1,0 +1,16 @@
+<div id="cart-shipping-wrapper" style="--background-color:{{ settings.background_color }};--text-color:{{ settings.text_color }};">
+  <div class="cart-shipping-message btn">
+    {%- if cart.total_price > 0 -%}
+    {% assign cartt = cart.total_price %}
+    {% assign target = settings.shipping_target | times: 100 %}
+    {% assign remaining = target | minus: cartt %}
+    {%- if remaining > 0 -%}
+    {%- capture shipping_message_strings -%}{% render 'random' with settings.shipping_message_strings %}{%- endcapture -%}
+    {% assign remaining = remaining | divided_by: 100.0 | ceil | times: 100 | money_without_trailing_zeros %}
+    {{ shipping_message_strings | replace: '_', remaining }}
+    {% else %}
+    {% render 'random' with settings.congrats_message_strings %}
+    {%- endif -%}
+    {%- endif -%}
+  </div>
+</div>
