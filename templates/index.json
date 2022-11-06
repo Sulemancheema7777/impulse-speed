@@ -114,6 +114,18 @@
         "autoplay_speed": 7
       }
     },
+    "165539253176a9a2db": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "home_featured_products": "best-sellers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "1655394155b5807035": {
       "type": "text-with-icons",
       "blocks": {
@@ -163,6 +175,30 @@
         "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
+        "divider": false
+      }
+    },
+    "1655392633442d4833": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "gifts under $30",
+        "home_featured_products": "gifts-under-30",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     },
@@ -314,42 +350,6 @@
         "height": 550,
         "framed": true,
         "parallax": true
-      }
-    },
-    "165539253176a9a2db": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Sellers",
-        "home_featured_products": "best-sellers",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1655392633442d4833": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New Arrivals",
-        "home_featured_products": "new-arrivals",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "gifts under $30",
-        "home_featured_products": "gifts-under-30",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
       }
     },
     "featured-collections": {
@@ -512,13 +512,13 @@
   },
   "order": [
     "slideshow",
+    "165539253176a9a2db",
     "1655394155b5807035",
+    "1655392633442d4833",
+    "featured-collection",
     "promo-grid",
     "rich-text",
     "background-image-text",
-    "165539253176a9a2db",
-    "1655392633442d4833",
-    "featured-collection",
     "featured-collections",
     "promo-grid2",
     "blog-posts",
