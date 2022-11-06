@@ -43,6 +43,7 @@
         },
         "e9652f30-63d7-4ed7-9659-11137d683cf7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -126,56 +127,20 @@
         "divider": false
       }
     },
-    "1655394155b5807035": {
-      "type": "text-with-icons",
-      "blocks": {
-        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "No-Hassle returns",
-            "text": "<p><a href=\"\/pages\/copy-of-shipping-policy\" target=\"_blank\" title=\"Returns Policy\">FREE U.S. Returns and 100% replacement against tarnish\/rust<\/a><\/p>"
-          }
-        },
-        "165539415547470ad6-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "thumbs-up",
-            "title": "Credibility",
-            "text": "<p><a href=\"\/pages\/reviews-experience-what-others-are-saying\" target=\"_blank\" title=\"| Reviews | Experience what others are saying\">Over 150+ reviews (avg 4.7 star rating)<\/a><\/p>"
-          }
-        },
-        "165539415547470ad6-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "globe",
-            "title": "Worlwide shipping",
-            "text": "<p><a href=\"\/pages\/refund-exchange-policy\" target=\"_blank\" title=\"Shipping Policy\">to majority countries<\/a><\/p>"
-          }
-        },
-        "165539415547470ad6-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "wallet",
-            "title": "Flexible  pay",
-            "text": "<p>Buy now, pay later with Afterpay<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf",
-        "165539415547470ad6-2",
-        "165539415547470ad6-1",
-        "165539415547470ad6-0"
-      ],
+    "background-image-text": {
+      "type": "background-image-text",
       "settings": {
-        "title": "why shop with us",
-        "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
+        "subtitle": "",
+        "title": "bold statements",
+        "text": "<p>Step into the room with <strong>striking statements <\/strong>to complete your style <\/p>",
+        "button_label": "Shop now",
+        "button_link": "shopify:\/\/collections\/eid-collection-22",
+        "image": "shopify:\/\/shop_images\/Eid_Collection_banner.jpg",
+        "focal_point": "bottom",
+        "layout": "right",
+        "height": 550,
+        "framed": true,
+        "parallax": true
       }
     },
     "1655392633442d4833": {
@@ -307,22 +272,6 @@
         "gutter_size": 20,
         "space_above": true,
         "space_below": false
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "bold statements",
-        "text": "<p>Step into the room with <strong>striking statements <\/strong>to complete your style <\/p>",
-        "button_label": "Shop now",
-        "button_link": "shopify:\/\/collections\/eid-collection-22",
-        "image": "shopify:\/\/shop_images\/Eid_Collection_banner.jpg",
-        "focal_point": "bottom",
-        "layout": "right",
-        "height": 550,
-        "framed": true,
-        "parallax": true
       }
     },
     "featured-collections": {
@@ -466,6 +415,58 @@
         "divider": false
       }
     },
+    "1655394155b5807035": {
+      "type": "text-with-icons",
+      "blocks": {
+        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "No-Hassle returns",
+            "text": "<p><a href=\"\/pages\/copy-of-shipping-policy\" target=\"_blank\" title=\"Returns Policy\">FREE U.S. Returns and 100% replacement against tarnish\/rust<\/a><\/p>"
+          }
+        },
+        "165539415547470ad6-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Credibility",
+            "text": "<p><a href=\"\/pages\/reviews-experience-what-others-are-saying\" target=\"_blank\" title=\"| Reviews | Experience what others are saying\">Over 150+ reviews (avg 4.7 star rating)<\/a><\/p>"
+          }
+        },
+        "165539415547470ad6-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Worlwide shipping",
+            "text": "<p><a href=\"\/pages\/refund-exchange-policy\" target=\"_blank\" title=\"Shipping Policy\">to majority countries<\/a><\/p>"
+          }
+        },
+        "165539415547470ad6-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "wallet",
+            "title": "Flexible  pay",
+            "text": "<p>Buy now, pay later with Afterpay<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf",
+        "165539415547470ad6-2",
+        "165539415547470ad6-1",
+        "165539415547470ad6-0"
+      ],
+      "settings": {
+        "title": "why shop with us",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
@@ -513,15 +514,15 @@
   "order": [
     "slideshow",
     "165539253176a9a2db",
-    "1655394155b5807035",
+    "background-image-text",
     "1655392633442d4833",
     "featured-collection",
     "promo-grid",
-    "background-image-text",
     "featured-collections",
     "promo-grid2",
     "blog-posts",
     "165539469962beba63",
+    "1655394155b5807035",
     "rich-text",
     "16575764496aa2ba96"
   ]
