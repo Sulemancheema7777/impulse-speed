@@ -309,33 +309,6 @@
         "space_below": false
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Sustainability & Quality promise"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>We only use high-quality materials and only employ ethical, sustainable manufacturing to ensure the best craftsmanship. Not only is our jewelry made to last, but we stand behind every product.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
@@ -493,6 +466,33 @@
         "divider": false
       }
     },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainability & Quality promise"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We only use high-quality materials and only employ ethical, sustainable manufacturing to ensure the best craftsmanship. Not only is our jewelry made to last, but we stand behind every product.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "16575764496aa2ba96": {
       "type": "background-image-text",
       "disabled": true,
@@ -517,12 +517,12 @@
     "1655392633442d4833",
     "featured-collection",
     "promo-grid",
-    "rich-text",
     "background-image-text",
     "featured-collections",
     "promo-grid2",
     "blog-posts",
     "165539469962beba63",
+    "rich-text",
     "16575764496aa2ba96"
   ]
 }
