@@ -22,23 +22,41 @@
             "focal_point": "20% 0"
           }
         },
-        "slideshow-0": {
+        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
           "type": "image",
           "settings": {
-            "top_subheading": "Pearl edition featuring",
-            "title": "Jewels by Sunaina X\nMaryam Ishtiaq",
-            "title_size": 50,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/jewelsbysunaina-x-maryam-ishtiaq",
-            "link_text": "Shop the staples",
+            "top_subheading": "",
+            "title": "PEARL COLLECTION",
+            "title_size": 40,
+            "subheading": "Endless peace and pearls for you this season",
+            "link": "shopify:\/\/collections\/pearl-collection",
+            "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/jbs_x_maryam.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/jbs_x_maryam_711ae358-1fc2-4400-8712-e765511d2074.jpg",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/pearls.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/pearls.jpg",
             "overlay_opacity": 0,
-            "focal_point": "20% 0"
+            "focal_point": "center center"
+          }
+        },
+        "e9652f30-63d7-4ed7-9659-11137d683cf7": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "New gift ideas all under $30",
+            "link": "shopify:\/\/collections\/gifts-under-30",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/E6869FAD-8EB8-4E41-924D-B64F4B47E020.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
           }
         },
         "a6003689-7069-40d0-a6e5-f9d78aac930e": {
@@ -60,50 +78,32 @@
             "focal_point": "bottom center"
           }
         },
-        "e9652f30-63d7-4ed7-9659-11137d683cf7": {
+        "slideshow-0": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "New gift ideas all under $30",
-            "link": "shopify:\/\/collections\/gifts-under-30",
-            "link_text": "Shop Now",
+            "top_subheading": "Pearl edition featuring",
+            "title": "Jewels by Sunaina X\nMaryam Ishtiaq",
+            "title_size": 50,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/jewelsbysunaina-x-maryam-ishtiaq",
+            "link_text": "Shop the staples",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/E6869FAD-8EB8-4E41-924D-B64F4B47E020.jpg",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/jbs_x_maryam.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/jbs_x_maryam_711ae358-1fc2-4400-8712-e765511d2074.jpg",
             "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "PEARL COLLECTION",
-            "title_size": 40,
-            "subheading": "Endless peace and pearls for you this season",
-            "link": "shopify:\/\/collections\/pearl-collection",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/pearls.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/pearls.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "focal_point": "20% 0"
           }
         }
       },
       "block_order": [
         "7563fe4f-23b4-42ea-b428-e4ac36c9ca78",
-        "slideshow-0",
-        "a6003689-7069-40d0-a6e5-f9d78aac930e",
+        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c",
         "e9652f30-63d7-4ed7-9659-11137d683cf7",
-        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c"
+        "a6003689-7069-40d0-a6e5-f9d78aac930e",
+        "slideshow-0"
       ],
       "settings": {
         "section_height": "550px",
