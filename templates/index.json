@@ -114,6 +114,58 @@
         "autoplay_speed": 7
       }
     },
+    "1655394155b5807035": {
+      "type": "text-with-icons",
+      "blocks": {
+        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "No-Hassle returns",
+            "text": "<p><a href=\"\/pages\/copy-of-shipping-policy\" target=\"_blank\" title=\"Returns Policy\">FREE U.S. Returns and 100% replacement against tarnish\/rust<\/a><\/p>"
+          }
+        },
+        "165539415547470ad6-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Credibility",
+            "text": "<p><a href=\"\/pages\/reviews-experience-what-others-are-saying\" target=\"_blank\" title=\"| Reviews | Experience what others are saying\">Over 150+ reviews (avg 4.7 star rating)<\/a><\/p>"
+          }
+        },
+        "165539415547470ad6-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Worlwide shipping",
+            "text": "<p><a href=\"\/pages\/refund-exchange-policy\" target=\"_blank\" title=\"Shipping Policy\">to majority countries<\/a><\/p>"
+          }
+        },
+        "165539415547470ad6-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "wallet",
+            "title": "Flexible  pay",
+            "text": "<p>Buy now, pay later with Afterpay<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf",
+        "165539415547470ad6-2",
+        "165539415547470ad6-1",
+        "165539415547470ad6-0"
+      ],
+      "settings": {
+        "title": "why shop with us",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
@@ -441,58 +493,6 @@
         "divider": false
       }
     },
-    "1655394155b5807035": {
-      "type": "text-with-icons",
-      "blocks": {
-        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "No-Hassle returns",
-            "text": "<p><a href=\"\/pages\/copy-of-shipping-policy\" target=\"_blank\" title=\"Returns Policy\">FREE U.S. Returns and 100% replacement against tarnish\/rust<\/a><\/p>"
-          }
-        },
-        "165539415547470ad6-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "thumbs-up",
-            "title": "Credibility",
-            "text": "<p><a href=\"\/pages\/reviews-experience-what-others-are-saying\" target=\"_blank\" title=\"| Reviews | Experience what others are saying\">Over 150+ reviews (avg 4.7 star rating)<\/a><\/p>"
-          }
-        },
-        "165539415547470ad6-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "globe",
-            "title": "Worlwide shipping",
-            "text": "<p><a href=\"\/pages\/refund-exchange-policy\" target=\"_blank\" title=\"Shipping Policy\">to majority countries<\/a><\/p>"
-          }
-        },
-        "165539415547470ad6-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "wallet",
-            "title": "Flexible  pay",
-            "text": "<p>Buy now, pay later with Afterpay<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "81881c21-89aa-46e8-9a0f-9c7f2a2dfadf",
-        "165539415547470ad6-2",
-        "165539415547470ad6-1",
-        "165539415547470ad6-0"
-      ],
-      "settings": {
-        "title": "why shop with us",
-        "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
     "16575764496aa2ba96": {
       "type": "background-image-text",
       "disabled": true,
@@ -512,6 +512,7 @@
   },
   "order": [
     "slideshow",
+    "1655394155b5807035",
     "promo-grid",
     "rich-text",
     "background-image-text",
@@ -522,7 +523,6 @@
     "promo-grid2",
     "blog-posts",
     "165539469962beba63",
-    "1655394155b5807035",
     "16575764496aa2ba96"
   ]
 }
