@@ -24,7 +24,6 @@
         },
         "a6003689-7069-40d0-a6e5-f9d78aac930e": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "Black Friday",
             "title": "get it.",
@@ -37,9 +36,9 @@
             "color_accent": "#111111",
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify:\/\/shop_images\/shiring_chain_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/shiring_chain_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/WhatsApp_Image_2022-11-18_at_2.39.57_PM.jpg",
             "overlay_opacity": 0,
-            "focal_point": "bottom center"
+            "focal_point": "center center"
           }
         },
         "e9652f30-63d7-4ed7-9659-11137d683cf7": {
