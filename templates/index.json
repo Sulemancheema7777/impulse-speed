@@ -146,18 +146,6 @@
         "parallax": true
       }
     },
-    "1655392633442d4833": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New Arrivals",
-        "home_featured_products": "new-arrivals",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -168,6 +156,18 @@
         "mobile_scrollable": true,
         "view_all": true,
         "divider": true
+      }
+    },
+    "1655392633442d4833": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "promo-grid": {
@@ -434,7 +434,7 @@
           "settings": {
             "icon": "thumbs-up",
             "title": "Credibility",
-            "text": "<p><a href=\"\/pages\/reviews-experience-what-others-are-saying\" target=\"_blank\" title=\"| Reviews | Experience what others are saying\">Over 150+ reviews (avg 4.7 star rating)<\/a><\/p>"
+            "text": "<p><a href=\"\/pages\/reviews-experience-what-others-are-saying\" target=\"_blank\" title=\"| Reviews | Experience what others are saying\">Over 250+ reviews (avg 4.7 star rating)<\/a><\/p>"
           }
         },
         "165539415547470ad6-1": {
@@ -518,8 +518,8 @@
     "slideshow",
     "165539253176a9a2db",
     "background-image-text",
-    "1655392633442d4833",
     "featured-collection",
+    "1655392633442d4833",
     "promo-grid",
     "featured-collections",
     "promo-grid2",
