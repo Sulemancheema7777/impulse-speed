@@ -54,7 +54,7 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-bottom horizontal-right",
             "image": "shopify:\/\/shop_images\/gifts_under_30.jpg",
             "image_mobile": "shopify:\/\/shop_images\/gifts_under_30.jpg",
             "overlay_opacity": 0,
