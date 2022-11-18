@@ -42,42 +42,21 @@
             "focal_point": "center center"
           }
         },
-        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "PEARL COLLECTION",
-            "title_size": 40,
-            "subheading": "Endless peace and pearls for you this season",
-            "link": "shopify:\/\/collections\/pearl-collection",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/pearls.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/pearls.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "a6003689-7069-40d0-a6e5-f9d78aac930e": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "top_subheading": "Most loved",
-            "title": "Evil Eye \nCollection",
+            "top_subheading": "Free necklace",
+            "title": "get it.",
             "title_size": 57,
-            "subheading": "our best selling collection that put us on the map",
-            "link": "shopify:\/\/collections\/evil-eye",
-            "link_text": "Shop now",
+            "subheading": "Black Friday",
+            "link": "shopify:\/\/products\/shirin-chain",
+            "link_text": "Add to cart",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#111111",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Evil_eye_banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Evil_eye_banner_f77ac65f-1e25-4612-b50a-15028301fafe.jpg",
+            "image": "shopify:\/\/shop_images\/shiring_chain_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/shiring_chain_2.jpg",
             "overlay_opacity": 0,
             "focal_point": "bottom center"
           }
@@ -101,14 +80,34 @@
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
+        },
+        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "PEARL COLLECTION",
+            "title_size": 40,
+            "subheading": "Endless peace and pearls for you this season",
+            "link": "shopify:\/\/collections\/pearl-collection",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/pearls.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/pearls.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "7563fe4f-23b4-42ea-b428-e4ac36c9ca78",
         "e9652f30-63d7-4ed7-9659-11137d683cf7",
-        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c",
         "a6003689-7069-40d0-a6e5-f9d78aac930e",
-        "slideshow-0"
+        "slideshow-0",
+        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c"
       ],
       "settings": {
         "section_height": "550px",
@@ -117,6 +116,58 @@
         "style": "dots",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "96060e12-902e-44df-8014-9475cd3659e1": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--16616715256048__96060e12-902e-44df-8014-9475cd3659e1-16687948832b2ea665-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Endless\npossibilities.",
+            "title_size": 80,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--16616715256048__96060e12-902e-44df-8014-9475cd3659e1-16687948832b2ea665-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16616715256048__96060e12-902e-44df-8014-9475cd3659e1-16687948832b2ea665-0",
+        "template--16616715256048__96060e12-902e-44df-8014-9475cd3659e1-16687948832b2ea665-1"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
       }
     },
     "165539253176a9a2db": {
@@ -517,6 +568,7 @@
   },
   "order": [
     "slideshow",
+    "96060e12-902e-44df-8014-9475cd3659e1",
     "165539253176a9a2db",
     "featured-collection",
     "background-image-text",
