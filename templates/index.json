@@ -24,6 +24,7 @@
         },
         "e9652f30-63d7-4ed7-9659-11137d683cf7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "All under $35",
             "title": "Gift ideas",
@@ -133,7 +134,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "gifts under $30",
+        "title": "gifts under $35",
         "home_featured_products": "gifts-under-30",
         "per_row": 4,
         "rows": 2,
