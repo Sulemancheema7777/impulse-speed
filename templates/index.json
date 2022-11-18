@@ -130,6 +130,18 @@
         "divider": false
       }
     },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "gifts under $30",
+        "home_featured_products": "gifts-under-30",
+        "per_row": 4,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
@@ -144,18 +156,6 @@
         "height": 550,
         "framed": true,
         "parallax": true
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "gifts under $30",
-        "home_featured_products": "gifts-under-30",
-        "per_row": 4,
-        "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": true
       }
     },
     "1655392633442d4833": {
@@ -517,8 +517,8 @@
   "order": [
     "slideshow",
     "165539253176a9a2db",
-    "background-image-text",
     "featured-collection",
+    "background-image-text",
     "1655392633442d4833",
     "promo-grid",
     "featured-collections",
