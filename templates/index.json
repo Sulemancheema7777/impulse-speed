@@ -19,7 +19,7 @@
             "image": "shopify:\/\/shop_images\/black_friday_image.jpg",
             "image_mobile": "shopify:\/\/shop_images\/black_friday_image.jpg",
             "overlay_opacity": 0,
-            "focal_point": "20% 0"
+            "focal_point": "center center"
           }
         },
         "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
