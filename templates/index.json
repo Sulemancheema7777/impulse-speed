@@ -164,10 +164,10 @@
         "title": "gifts under $30",
         "home_featured_products": "gifts-under-30",
         "per_row": 4,
-        "rows": 1,
+        "rows": 2,
         "mobile_scrollable": true,
         "view_all": true,
-        "divider": false
+        "divider": true
       }
     },
     "promo-grid": {
