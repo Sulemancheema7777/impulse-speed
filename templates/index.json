@@ -22,6 +22,26 @@
             "focal_point": "center center"
           }
         },
+        "e9652f30-63d7-4ed7-9659-11137d683cf7": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Gifts under $35",
+            "title_size": 80,
+            "subheading": "+25% off for limited time",
+            "link": "shopify:\/\/collections\/gifts-under-30",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/gifts_under_30.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/gifts_under_30.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
           "type": "image",
           "disabled": true,
@@ -38,25 +58,6 @@
             "text_align": "vertical-bottom horizontal-right",
             "image": "shopify:\/\/shop_images\/pearls.jpg",
             "image_mobile": "shopify:\/\/shop_images\/pearls.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "e9652f30-63d7-4ed7-9659-11137d683cf7": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "All under $35",
-            "title": "Gift ideas",
-            "title_size": 80,
-            "subheading": "+25% off for limited time",
-            "link": "shopify:\/\/collections\/gifts-under-30",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/gifts_under_30.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/gifts_under_30.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -104,8 +105,8 @@
       },
       "block_order": [
         "7563fe4f-23b4-42ea-b428-e4ac36c9ca78",
-        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c",
         "e9652f30-63d7-4ed7-9659-11137d683cf7",
+        "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c",
         "a6003689-7069-40d0-a6e5-f9d78aac930e",
         "slideshow-0"
       ],
