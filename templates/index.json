@@ -25,10 +25,10 @@
         "e9652f30-63d7-4ed7-9659-11137d683cf7": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "Gifts under $35",
+            "top_subheading": "All under $35",
+            "title": "Gift ideas",
             "title_size": 80,
-            "subheading": "+25% off for limited time",
+            "subheading": "+25% off now",
             "link": "shopify:\/\/collections\/gifts-under-30",
             "link_text": "Shop Now",
             "link_2": "",
