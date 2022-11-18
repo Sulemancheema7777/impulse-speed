@@ -16,8 +16,8 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/black_friday_lve.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/black_friday_lve.jpg",
+            "image": "shopify:\/\/shop_images\/black_friday_image.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/black_friday_image.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
