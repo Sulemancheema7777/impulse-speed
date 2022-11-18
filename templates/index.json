@@ -24,6 +24,7 @@
         },
         "d03d26c0-5b74-4c2c-8dee-d4e99a4c9e8c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "PEARL COLLECTION",
@@ -62,6 +63,7 @@
         },
         "a6003689-7069-40d0-a6e5-f9d78aac930e": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "Most loved",
             "title": "Evil Eye \nCollection",
@@ -81,6 +83,7 @@
         },
         "slideshow-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "Pearl edition featuring",
             "title": "Jewels by Sunaina X\nMaryam Ishtiaq",
