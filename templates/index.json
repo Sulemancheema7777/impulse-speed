@@ -11,13 +11,14 @@
             "title": "Happy 6th to us!",
             "title_size": 55,
             "subheading": "Buy any two pieces and get the SIA bracelet for FREE - code: SIA6",
-            "link": "shopify:\/\/products\/siya-bracelet",
+            "link": "",
             "link_text": "Shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/13A5D4A7-2C9D-41AB-B537-8D60D2E64013.jpg",
+            "image": "shopify:\/\/shop_images\/black_friday_image.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/black_friday_image.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
