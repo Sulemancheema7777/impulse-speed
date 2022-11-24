@@ -69,7 +69,7 @@
           {% endif %}
 
           <div class="cart__item-row cart__checkout-wrapper">
-            <button type="submit" name="checkout" data-terms-required="{{ required }}" class="btn cart__checkout">
+            <button type="submit" name="checkout" data-terms-required="{{ required }}" class="btn cart__checkout" onsubmit="e => cartPageFormSubmit(e)">
               {{ 'cart.general.checkout' | t }}
             </button>
 
