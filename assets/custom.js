@@ -48,6 +48,41 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
   };
 })();
 
+document.CartPageForm.addEventlistener('submit', function() {
+  const box = this.form.querySelector('.cart-packaging');
+  const boxOne = box ? this.form.querySelectorAll('.packagesRadio')[0] : false;
+  const boxTwo = box ? this.form.querySelectorAll('.packagesRadio')[1] : false;
+
+  let requiresTerms = false;
+
+  if (box) requiresTerms = true;
+
+  this.querySelector('.cart__checkout').classList.add('btn--loading');
+
+  let proceed = true;
+
+  if (this.querySelector('.cart__terms-checkbox') && !this.querySelector('.cart__terms-checkbox').checked) {
+    proceed = false;
+  }
+
+  if (box && !boxOne.checked && !boxTwo.checked) {
+    proceed = false;
+  }
+
+  if (requiresTerms) {
+    if (proceed) {
+      // continue to checkout
+    } else {
+      evt.preventDefault()
+      alert(theme.strings.cartTermsConfirmation)
+      this.querySelector('.cart__checkout').classList.remove('btn--loading')
+      if (document.querySelector('#CartDrawer .drawer__scrollable')) document.querySelector('#CartDrawer .drawer__scrollable').scrollTop = document.querySelector('.cart__page--submit-wrapper').previousElementSibling.offsetHeight;
+      // evt.preventDefault();
+      return;
+    }
+  }
+})
+
 document.querySelector('#freeBoxes').addEventListener('click',function() {
   if (document.querySelector('.box-item-input')) {
     let checkoutButtons = document.querySelectorAll('.cart__checkout-wrapper button');
