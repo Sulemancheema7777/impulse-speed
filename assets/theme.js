@@ -1725,8 +1725,6 @@ lazySizesConfig.expFactor = 4;
 
         if (config.requiresTerms) {
           if (proceed) {
-            evt.preventDefault()
-            console.log('continue to checkout')
             // continue to checkout
           } else {
             evt.preventDefault();
@@ -1734,7 +1732,7 @@ lazySizesConfig.expFactor = 4;
             this.submitBtn.classList.remove(classes.btnLoading)
             if (document.querySelector('#CartDrawer .drawer__scrollable')) document.querySelector('#CartDrawer .drawer__scrollable').scrollTop = document.querySelector('.cart__page--submit-wrapper').previousElementSibling.offsetHeight;
             // evt.preventDefault();
-            return false;
+            return;
           }
         }
       },
