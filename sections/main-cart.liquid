@@ -14,7 +14,7 @@
   </header>
 
   {%- if cart.item_count > 0 -%}
-    <form action="{{ routes.cart_url }}" method="post" novalidate data-location="page" id="CartPageForm" name="CartPageForm" onsubmit="e => cartPageFormSubmit(e)">
+    <form action="{{ routes.cart_url }}" method="post" novalidate data-location="page" id="CartPageForm" name="CartPageForm">
       <div class="cart__page">
         <div data-products class="cart__page-col">
           {% for item in cart.items %}
@@ -69,7 +69,7 @@
           {% endif %}
 
           <div class="cart__item-row cart__checkout-wrapper">
-            <button type="submit" name="checkout" data-terms-required="{{ required }}" class="btn cart__checkout" onsubmit="e => cartPageFormSubmit(e)">
+            <button type="submit" name="checkout" data-terms-required="{{ required }}" class="btn cart__checkout">
               {{ 'cart.general.checkout' | t }}
             </button>
 
