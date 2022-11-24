@@ -1705,6 +1705,7 @@ lazySizesConfig.expFactor = 4;
       },
 
       onSubmit: function(evt) {
+        console.log('kokokoko')
         const box = this.form.querySelector('.cart-packaging');
         const boxOne = box ? this.form.querySelectorAll('.packagesRadio')[0] : false;
         const boxTwo = box ? this.form.querySelectorAll('.packagesRadio')[1] : false;
