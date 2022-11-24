@@ -48,6 +48,8 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
   };
 })();
 
+console.log('haha',document.CartPageForm)
+
 document.CartPageForm.addEventlistener('submit', function() {
   console.log('haha',this)
   const box = this.form.querySelector('.cart-packaging');
