@@ -71,6 +71,7 @@ document.CartPageForm.addEventlistener('submit', function() {
 
   if (requiresTerms) {
     if (proceed) {
+      console.log('yowa')
       // continue to checkout
     } else {
       evt.preventDefault()
