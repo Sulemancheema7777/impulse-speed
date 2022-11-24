@@ -48,8 +48,7 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
   };
 })();
 
-document.querySelector('[name="CartPageForm"]').addEventListener('submit', function() {
-  evt.preventDefault()
+document.querySelector('[name="CartPageForm"]').addEventListener('submit', function(e) {
   console.log('haha',this)
   const box = this.form.querySelector('.cart-packaging');
   const boxOne = box ? this.form.querySelectorAll('.packagesRadio')[0] : false;
@@ -76,11 +75,11 @@ document.querySelector('[name="CartPageForm"]').addEventListener('submit', funct
       console.log('yowa')
       // continue to checkout
     } else {
-      evt.preventDefault()
+      e.preventDefault()
       alert(theme.strings.cartTermsConfirmation)
       this.querySelector('.cart__checkout').classList.remove('btn--loading')
       if (document.querySelector('#CartDrawer .drawer__scrollable')) document.querySelector('#CartDrawer .drawer__scrollable').scrollTop = document.querySelector('.cart__page--submit-wrapper').previousElementSibling.offsetHeight;
-      // evt.preventDefault();
+      // e.preventDefault();
       return;
     }
   }
