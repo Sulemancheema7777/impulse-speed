@@ -50,19 +50,19 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
 
 function cartPageFormSubmit (e) {
   console.log('haha',e)
-  const box = this.form.querySelector('.cart-packaging');
-  const boxOne = box ? this.form.querySelectorAll('.packagesRadio')[0] : false;
-  const boxTwo = box ? this.form.querySelectorAll('.packagesRadio')[1] : false;
+  const box = document.querySelector('.cart-packaging');
+  const boxOne = box ? document.querySelectorAll('.packagesRadio')[0] : false;
+  const boxTwo = box ? document.querySelectorAll('.packagesRadio')[1] : false;
 
   let requiresTerms = false;
 
   if (box) requiresTerms = true;
 
-  this.querySelector('.cart__checkout').classList.add('btn--loading');
+  document.querySelector('.cart__checkout').classList.add('btn--loading');
 
   let proceed = true;
 
-  if (this.querySelector('.cart__terms-checkbox') && !this.querySelector('.cart__terms-checkbox').checked) {
+  if (document.querySelector('.cart__terms-checkbox') && !document.querySelector('.cart__terms-checkbox').checked) {
     proceed = false;
   }
 
@@ -77,7 +77,7 @@ function cartPageFormSubmit (e) {
     } else {
       e.preventDefault()
       alert(theme.strings.cartTermsConfirmation)
-      this.querySelector('.cart__checkout').classList.remove('btn--loading')
+      document.querySelector('.cart__checkout').classList.remove('btn--loading')
       if (document.querySelector('#CartDrawer .drawer__scrollable')) document.querySelector('#CartDrawer .drawer__scrollable').scrollTop = document.querySelector('.cart__page--submit-wrapper').previousElementSibling.offsetHeight;
       // e.preventDefault();
       return;
