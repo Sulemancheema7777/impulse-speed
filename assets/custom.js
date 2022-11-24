@@ -48,9 +48,9 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
   };
 })();
 
-console.log('haha',document.CartPageForm)
+console.log('haha',document.querySelector('[name="CartPageForm"]'))
 
-document.CartPageForm.addEventlistener('submit', function() {
+document.querySelector('[name="CartPageForm"]').addEventlistener('submit', function() {
   console.log('haha',this)
   const box = this.form.querySelector('.cart-packaging');
   const boxOne = box ? this.form.querySelectorAll('.packagesRadio')[0] : false;
