@@ -49,6 +49,7 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
 })();
 
 document.CartPageForm.addEventlistener('submit', function() {
+  console.log('haha',this)
   const box = this.form.querySelector('.cart-packaging');
   const boxOne = box ? this.form.querySelectorAll('.packagesRadio')[0] : false;
   const boxTwo = box ? this.form.querySelectorAll('.packagesRadio')[1] : false;
