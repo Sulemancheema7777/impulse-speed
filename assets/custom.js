@@ -48,42 +48,42 @@ for (var i = 0; i < document.querySelector('.cart-packaging').children.length; i
   };
 })();
 
-function cartPageFormSubmit (e) {
-  console.log('haha',e)
-  const box = document.querySelector('.cart-packaging');
-  const boxOne = box ? document.querySelectorAll('.packagesRadio')[0] : false;
-  const boxTwo = box ? document.querySelectorAll('.packagesRadio')[1] : false;
+// function cartPageFormSubmit (e) {
+//   console.log('haha',e)
+//   const box = document.querySelector('.cart-packaging');
+//   const boxOne = box ? document.querySelectorAll('.packagesRadio')[0] : false;
+//   const boxTwo = box ? document.querySelectorAll('.packagesRadio')[1] : false;
 
-  let requiresTerms = false;
+//   let requiresTerms = false;
 
-  if (box) requiresTerms = true;
+//   if (box) requiresTerms = true;
 
-  document.querySelector('.cart__checkout').classList.add('btn--loading');
+//   document.querySelector('.cart__checkout').classList.add('btn--loading');
 
-  let proceed = true;
+//   let proceed = true;
 
-  if (document.querySelector('.cart__terms-checkbox') && !document.querySelector('.cart__terms-checkbox').checked) {
-    proceed = false;
-  }
+//   if (document.querySelector('.cart__terms-checkbox') && !document.querySelector('.cart__terms-checkbox').checked) {
+//     proceed = false;
+//   }
 
-  if (box && !boxOne.checked && !boxTwo.checked) {
-    proceed = false;
-  }
+//   if (box && !boxOne.checked && !boxTwo.checked) {
+//     proceed = false;
+//   }
 
-  if (requiresTerms) {
-    if (proceed) {
-      console.log('yowa')
-      // continue to checkout
-    } else {
-      e.preventDefault()
-      alert(theme.strings.cartTermsConfirmation)
-      document.querySelector('.cart__checkout').classList.remove('btn--loading')
-      if (document.querySelector('#CartDrawer .drawer__scrollable')) document.querySelector('#CartDrawer .drawer__scrollable').scrollTop = document.querySelector('.cart__page--submit-wrapper').previousElementSibling.offsetHeight;
-      // e.preventDefault();
-      return;
-    }
-  }
-}
+//   if (requiresTerms) {
+//     if (proceed) {
+//       console.log('yowa')
+//       // continue to checkout
+//     } else {
+//       e.preventDefault()
+//       alert(theme.strings.cartTermsConfirmation)
+//       document.querySelector('.cart__checkout').classList.remove('btn--loading')
+//       if (document.querySelector('#CartDrawer .drawer__scrollable')) document.querySelector('#CartDrawer .drawer__scrollable').scrollTop = document.querySelector('.cart__page--submit-wrapper').previousElementSibling.offsetHeight;
+//       // e.preventDefault();
+//       return;
+//     }
+//   }
+// }
 
 document.querySelector('#freeBoxes').addEventListener('click',function() {
   if (document.querySelector('.box-item-input')) {
