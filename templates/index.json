@@ -111,7 +111,7 @@
       "settings": {
         "section_height": "550px",
         "mobile_height": "300px",
-        "parallax": true,
+        "parallax": false,
         "style": "dots",
         "autoplay": true,
         "autoplay_speed": 7
