@@ -163,15 +163,6 @@
               "container_width": 33
             }
           },
-          "1494301487048": {
-            "type": "logo_social",
-            "disabled": true,
-            "settings": {
-              "logo": "shopify:\/\/shop_images\/43719_Jewels_By_Sunaina_RK_01_wide.png",
-              "desktop_logo_height": 65,
-              "container_width": 22
-            }
-          },
           "8102da46-f10e-42a9-ac4e-af781494ef26": {
             "type": "custom",
             "disabled": true,
@@ -182,14 +173,22 @@
               "text": "<p>Add your own custom text here.<\/p>",
               "container_width": 25
             }
+          },
+          "1494301487048": {
+            "type": "logo_social",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/43719_Jewels_By_Sunaina_RK_01_wide.png",
+              "desktop_logo_height": 65,
+              "container_width": 22
+            }
           }
         },
         "block_order": [
           "1494301487049",
           "e1e192df-21fc-4cb0-9497-fedadd7248f7",
           "1494292487693",
-          "1494301487048",
-          "8102da46-f10e-42a9-ac4e-af781494ef26"
+          "8102da46-f10e-42a9-ac4e-af781494ef26",
+          "1494301487048"
         ],
         "settings": {
           "show_locale_selector": true,
