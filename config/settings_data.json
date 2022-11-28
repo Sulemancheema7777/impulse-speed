@@ -174,9 +174,11 @@
           },
           "8102da46-f10e-42a9-ac4e-af781494ef26": {
             "type": "custom",
+            "disabled": true,
             "settings": {
               "show_footer_title": true,
               "title": "Connect on social",
+              "image": "shopify:\/\/shop_images\/youtube.png",
               "text": "<p>Add your own custom text here.<\/p>",
               "container_width": 25
             }
