@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -65,17 +74,17 @@
     "cart_terms_conditions_page": "terms-of-service",
     "activate_packaging": true,
     "paid_box": "box-charges",
-    "shipping_message_strings": "You're<b> _ <\/b>away from <b>FREE U.S. Shipping!<\/b>~Add<b> _ <\/b>more for <b>FREE U.S. Shipping!<\/b>",
+    "shipping_message_strings": "You're<b> _ </b>away from <b>FREE U.S. Shipping!</b>~Add<b> _ </b>more for <b>FREE U.S. Shipping!</b>",
     "congrats_message_strings": "You've unlocked Free U.S. Shipping!~You've earned Free U.S. Shipping!",
     "background_color": "#eab894",
     "text_color": "#000000",
-    "social_facebook_link": "https:\/\/www.facebook.com\/JewelsbySunaina",
-    "social_instagram_link": "https:\/\/www.instagram.com\/jewelsbysunaina\/",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@jewelsbysunaina",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCRAdBV39Mltzhp6MKmqdvvA",
+    "social_facebook_link": "https://www.facebook.com/JewelsbySunaina",
+    "social_instagram_link": "https://www.instagram.com/jewelsbysunaina/",
+    "social_tiktok_link": "https://www.tiktok.com/@jewelsbysunaina",
+    "social_youtube_link": "https://www.youtube.com/channel/UCRAdBV39Mltzhp6MKmqdvvA",
     "share_pinterest": true,
-    "favicon": "shopify:\/\/shop_images\/favicon-2.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/43719_Jewels_By_Sunaina_RK_01_wider.png",
+    "favicon": "shopify://shop_images/favicon-2.png",
+    "checkout_logo_image": "shopify://shop_images/43719_Jewels_By_Sunaina_RK_01_wider.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
@@ -92,7 +101,7 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/43719_Jewels_By_Sunaina_RK_01.png",
+              "logo": "shopify://shop_images/43719_Jewels_By_Sunaina_RK_01.png",
               "desktop_logo_width": 180,
               "mobile_logo_width": 100
             }
@@ -110,7 +119,7 @@
             "settings": {
               "text": "No Hassle returns",
               "link_text": "Money back guarantee & lifetime warranty",
-              "link": "shopify:\/\/pages\/copy-of-shipping-policy"
+              "link": "shopify://pages/returns-policy"
             }
           }
         },
@@ -160,7 +169,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
               "container_width": 33
             }
           },
@@ -170,15 +179,15 @@
             "settings": {
               "show_footer_title": true,
               "title": "Connect on social",
-              "image": "shopify:\/\/shop_images\/youtube.png",
-              "text": "<p>Add your own custom text here.<\/p>",
+              "image": "shopify://shop_images/youtube.png",
+              "text": "<p>Add your own custom text here.</p>",
               "container_width": 25
             }
           },
           "1494301487048": {
             "type": "logo_social",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/43719_Jewels_By_Sunaina_RK_01_wide.png",
+              "logo": "shopify://shop_images/43719_Jewels_By_Sunaina_RK_01_wide.png",
               "desktop_logo_height": 55,
               "container_width": 61
             }
@@ -220,7 +229,7 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
           "image_position": "left",
           "show_social_icons": false,
           "enable_newsletter": true,
@@ -245,7 +254,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -256,7 +265,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -267,7 +276,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -284,23 +293,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "7570552984445421165": {
-        "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "type": "shopify://apps/yotpo-product-reviews-photos/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "6475109725644987055": {
-        "type": "shopify:\/\/apps\/stackable-discounts\/blocks\/embed\/82544b1b-ebf7-42ac-a95c-5d81e2ae9218",
-        "disabled": false,
-        "settings": {
-          "custom-css": "",
-          "disable-checkout-listener": false
-        }
+        "settings": {}
       }
     }
   },
@@ -452,15 +450,13 @@
             "reminder-block": {
               "type": "header",
               "disabled": true,
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "reminder-block"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
@@ -559,7 +555,7 @@
               "settings": {
                 "text": "Free shipping",
                 "link_text": "On all orders over $100",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1520888647304": {
@@ -567,7 +563,7 @@
               "settings": {
                 "text": "Hassle-free returns",
                 "link_text": "30-day postage paid returns",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             }
           },
@@ -608,7 +604,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -642,7 +638,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "popup_image": "",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -666,7 +662,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -677,7 +673,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -688,7 +684,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -802,8 +798,7 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -824,8 +819,7 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "1526406521795": {
               "type": "menu",
@@ -852,8 +846,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
